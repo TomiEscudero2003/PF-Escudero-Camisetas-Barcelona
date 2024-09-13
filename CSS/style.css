@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /*Url nos pide que la imagen que queremos poner, y colocamos la ruta de esa imagen dentro del parentesis*/
+  background-image: url(azul.jpg);
+  background-size: cover;
+}
+body body {
+  position: relative;
+  border: 1px solid #dc3445;
+  height: 255vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  border: 1px solid #dc3445;
+  height: 255vh;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  color: #edbb00;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.maps {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.abrir-menu,
+.cerrar-menu {
+  display: none;
+}
+
+.gif {
+  text-align: center;
+}
+
+.parrafo {
+  text-align: center;
+  color: #edbb00;
+  font-size: 30px;
+  margin: 15px;
+}
+
+.form-register {
+  width: 400px;
+  background: hsl(354, 71%, 53%);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+.form-register h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.form-register .boton {
+  width: 100%;
+  background: #0026b2;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px;
+  font-size: 18px;
+  color: white;
+  margin: 16px 0;
+}
+
+#titulo {
+  color: #edbb00;
+  text-align: center;
+  margin: 100px;
+  font-size: 70px;
+}
+
+#subtitulo {
+  color: #edbb00;
+  text-align: center;
+  margin: 80px;
+  font-size: 25px;
+}
+
+.row {
+  text-align: center;
+  height: 250px;
+  margin: 60px;
+}
+
+.container {
+  color: #edbb00;
+  display: grid;
+  grid-template-rows: auto 1rem auto;
+}
+
+@media screen and (max-width: 550px) {
+  .abrir-menu,
+  .cerrar-menu {
+    display: block;
+    font-size: 1.25rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+  }
+  .nav {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #dc3445;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  }
+  .nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+  }
+  .nav img {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

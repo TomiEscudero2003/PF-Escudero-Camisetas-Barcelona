@@ -1,0 +1,37 @@
+.form-register {
+    width: 400px;
+    background: hsl(354, 71%, 53%);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      .boton{
+        width: 100%;
+        background: #0026b2;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+      }
+  }
+
+  
+  .controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-size: 18px;
+    color: white;
+    margin: 16px 0;
+  }

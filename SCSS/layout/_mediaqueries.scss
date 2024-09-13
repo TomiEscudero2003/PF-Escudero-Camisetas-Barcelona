@@ -1,0 +1,44 @@
+@media screen and (max-width: 550px){
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        font-size: 1.25rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: transparent;
+        color: white;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #dc3445;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav img{
+        color: white;
+    }
+}
